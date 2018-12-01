@@ -46,9 +46,10 @@
 
 
 ## 使用者交互及设计
+> ### [Axure原型展示](https://wordlesssoda.github.io/API_ML_AI_Prototype/)
+> 设计中...
 ### 产品结构图
 ![ProductStructure](images/ProductStructure.png)
-> 设计中...
 
 ## API I/O
 ### 百度菜品识别API
