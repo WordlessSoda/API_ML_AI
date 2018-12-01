@@ -106,8 +106,8 @@ client.dishDetect(image, options)
 }
 ```
 ### 菜谱查询API
-* Input：一张图片
-* Output: 图片的菜品名称、卡路里信息、置信度
+* Input：菜品名称/标签
+* Output: 菜谱图片，食材，制作步骤
 
 > [mob菜谱查询API](http://www.mob.com/product/api/detail/4)
 
