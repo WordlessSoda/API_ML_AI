@@ -48,8 +48,13 @@
 ## 使用者交互及设计
 > ### [Axure原型展示](https://wordlesssoda.github.io/API_ML_AI_Prototype/)
 > 设计中...
+
 ### 产品结构图
 ![ProductStructure](images/PS.png)
+
+### 产品信息结构图
+![InformationStructure](images/IS.png)
+
 ### 基本页面
 ![菜品识别页面](images/DR.png)
 ![菜谱查询页面](images/DM.png)
