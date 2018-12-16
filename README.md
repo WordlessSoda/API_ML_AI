@@ -40,8 +40,8 @@
 ## 需求
 | # | 标题 | 用户案例 | 重要程度 | 笔记 |
 | -------- | ----- | ---- | -------- | ----- |
-| 1 | 菜品识别 | 用户拍摄上传菜肴图片，识别菜品，显示可能的菜品。 | 重要 | [菜品识别技术文档](https://cloud.baidu.com/doc/IMAGERECOGNITION/ImageClassify-API.html#.AA.42.11.B6.D8.DB.EB.F6.75.87.9F.7E.88.AC.D7.60) |
-| 2 | 菜谱查询 | 根据用户输入或识别的菜品，列出需要的食材与制作步骤。 | 重要 | [菜谱查询](http://www.mob.com/product/api/detail/4) |
+| 1 | 菜品识别 | 用户拍摄上传菜肴图片，识别菜品，显示可能的菜品。 | 重要 | [百度菜品识别技术文档](https://cloud.baidu.com/doc/IMAGERECOGNITION/ImageClassify-API.html#.AA.42.11.B6.D8.DB.EB.F6.75.87.9F.7E.88.AC.D7.60) |
+| 2 | 菜谱查询 | 根据用户输入或识别的菜品，列出需要的食材与制作步骤。 | 重要 | [Mob菜谱查询](http://www.mob.com/product/api/detail/4)/[聚合数据菜谱大全（1000次）](https://www.juhe.cn/docs/api/id/46)/[易源数据菜谱大全](https://www.showapi.com/api/view/1164/1)|
 | 3 | 菜品搭配推荐 | 为用户推荐与输入或识别的菜品相关的搭配，可以详细列出菜品搭配菜单。 | 一般 |  |
 
 
@@ -66,6 +66,49 @@
 * Output: 图片的菜品名称、卡路里信息、置信度
 
 > [百度API技术文档](https://cloud.baidu.com/doc/IMAGERECOGNITION/ImageClassify-Python-SDK.html#.E8.8F.9C.E5.93.81.E8.AF.86.E5.88.AB)
+
+#### 输入
+![皮蛋瘦肉粥](images/PE.jpg)
+
+#### 输出
+```
+{
+	"log_id": "5608140318891167761",
+	"result_num": 5,
+	"result": [
+		{
+			"calorie": "214",
+			"has_calorie": true,
+			"name": "皮蛋瘦肉粥",
+			"probability": "0.921466"
+		},
+		{
+			"calorie": "27",
+			"has_calorie": true,
+			"name": "海鲜粥",
+			"probability": "0.0273665"
+		},
+		{
+			"calorie": "31",
+			"has_calorie": true,
+			"name": "蔬菜粥",
+			"probability": "0.00870583"
+		},
+		{
+			"calorie": "96",
+			"has_calorie": true,
+			"name": "糖粥",
+			"probability": "0.00774943"
+		},
+		{
+			"calorie": "85",
+			"has_calorie": true,
+			"name": "八宝粥",
+			"probability": "0.00583806"
+		}
+	]
+}
+```
 
 #### 请求参数
 ```
@@ -496,6 +539,5 @@ client.dishDetect(image, options)
 | 我不知道该怎么搭配这道菜？ | 推荐与之合理搭配的菜单。 |
 
 ## 还没做
-* 养生类健康菜谱推荐。
 * 根据用户选择口味，筛选推荐菜谱搭配。
-* 菜肴制作过程视频，文章等。
+* 用户分享菜肴制作过程视频，文章功能等。
