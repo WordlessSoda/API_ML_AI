@@ -44,10 +44,10 @@
 | 2 | 菜谱查询 | 根据用户输入或识别的菜品，列出需要的食材与制作步骤。 | 重要 | [Mob菜谱查询](http://www.mob.com/product/api/detail/4)/[聚合数据菜谱大全（1000次）](https://www.juhe.cn/docs/api/id/46)/[易源数据菜谱大全](https://www.showapi.com/api/view/1164/1)|
 | 3 | 菜品搭配推荐 | 为用户推荐与输入或识别的菜品相关的搭配，可以详细列出菜品搭配菜单。 | 一般 |  |
 
-
+---
 ## 使用者交互及设计
 > ### [Axure原型展示](https://wordlesssoda.github.io/API_ML_AI_Prototype/)
-> 设计中...
+> 详细交互演示请点击链接进入设计中...
 
 ### 产品结构图
 ![ProductStructure](images/PS.png)
@@ -57,9 +57,14 @@
 
 ### 基本页面
 ![菜品识别页面](images/DR.png)
+点击拍照/相册分别进入相应的页面
+---
 ![菜谱查询页面](images/DM.png)
+点击搜索可搜索菜谱，也可在提供的分类菜单中自由选择
+---
 ![个人中心页面](images/MY.png)
 
+---
 ## API I/O
 ### 百度菜品识别API
 * Input：一张图片
@@ -531,6 +536,10 @@ client.dishDetect(image, options)
 }
 ```
 
+## API使用比较分析
+
+## API使用后风险报告
+
 ## 问题
 | 问题 | 结果 |
 | -------- | ----- |
@@ -539,5 +548,5 @@ client.dishDetect(image, options)
 | 我不知道该怎么搭配这道菜？ | 推荐与之合理搭配的菜单。 |
 
 ## 还没做
-* 根据用户选择口味，筛选推荐菜谱搭配。
+* 根据用户选择的自己偏爱的口味，菜系等条件筛选推荐菜谱搭配。
 * 用户分享菜肴制作过程视频，文章功能等。
