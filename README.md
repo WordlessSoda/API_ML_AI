@@ -53,7 +53,7 @@
 | 我不知道该怎么搭配这道菜？ | 推荐与之合理搭配的菜单。 |
 
 ## 使用者交互及设计
-> ### [Axure原型文件](https://github.com/WordlessSoda/API_ML_AI_Prototype)
+> ### [Axure原型文件下载](https://github.com/WordlessSoda/API_ML_AI_Prototype/blob/master/API_ML_AI_Prototype.rp)
 > ### [Axure原型展示及交互](https://wordlesssoda.github.io/API_ML_AI_Prototype/)
 
 ### 产品结构图
