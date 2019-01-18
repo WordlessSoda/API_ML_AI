@@ -269,3 +269,15 @@
 ## 还没做(或不做)
 * 根据用户选择的自己偏爱的口味，菜系等条件筛选推荐菜谱搭配。
 * 用户分享菜肴制作过程视频，文章功能等。
+
+## 清单
+- [Axure原型文件下载](https://github.com/WordlessSoda/API_ML_AI_Prototype/blob/master/API_ML_AI_Prototype.rp)
+- [Axure原型展示及交互](https://wordlesssoda.github.io/API_ML_AI_Prototype/)
+- [API输入输出详细文档](API_Python/API_usage_demo.ipynb)
+- API
+ - [百度细粒度图像识别-菜品识别](https://cloud.baidu.com/product/imagerecognition/fine_grained)
+ - [聚合数据菜谱大全](https://www.juhe.cn/docs/api/id/46)
+ - [腾讯美食图片识别](https://ai.qq.com/product/visionimgidy.shtml#food)
+ - [阿里云图像识别](https://data.aliyun.com/ai?spm=a2c0j.9189909.810797.11.3b20547acXUEvk#/image-tag)
+ - [mob菜谱查询](http://www.mob.com/product/api/detail/4)
+ - [万维易源菜谱查询](https://www.showapi.com/api/view/930)
